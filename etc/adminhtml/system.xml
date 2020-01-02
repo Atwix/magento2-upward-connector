@@ -13,7 +13,7 @@
                 showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>UPWARD PWA Configuration</label>
                 <field id="config_path" type="text" translate="label,comment"
-                    sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>UPWARD Config File</label>
                     <config_path>web/upward/path</config_path>
                     <comment>Server path to YAML configuration file for UPWARD</comment>

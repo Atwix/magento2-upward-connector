@@ -50,7 +50,7 @@ class UpwardControllerFactory
     {
         $upwardConfig = $this->config->getValue(
             static::UPWARD_CONFIG_PATH,
-            ScopeConfigInterface::SCOPE_TYPE_DEFAULT
+            \Magento\Store\Model\ScopeInterface::SCOPE_STORE
         );
 
         if (empty($upwardConfig)) {
