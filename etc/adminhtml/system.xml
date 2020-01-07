@@ -10,7 +10,7 @@
     <system>
         <section id="web">
             <group id="upward" translate="label" type="text" sortOrder="300"
-                showInDefault="1" showInWebsite="0" showInStore="0">
+                showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>UPWARD PWA Configuration</label>
                 <field id="config_path" type="text" translate="label,comment"
                     sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
